@@ -37,3 +37,25 @@ Read the numbered documents in order; each builds only on the ones before it.
 ## License
 
 [MIT](LICENSE)
+
+## 快速开始
+
+首次使用需先按 [SETUP.md](SETUP.md) 完成配置（账号、`superagent` profile 和本 bundle 的安装）。配置完成后，用三步运行本项目：
+
+1. 安装依赖
+
+   ```sh
+   pnpm install
+   ```
+
+2. 构建
+
+   ```sh
+   pnpm build
+   ```
+
+3. 启动服务
+
+   ```sh
+   scripts/dsh-superagent start
+   ```
